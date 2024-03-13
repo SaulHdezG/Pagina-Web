@@ -1,0 +1,71 @@
+/* Este tema es de selectores */
+
+
+/*body {
+    background:#000000; 
+    color:#fff;
+    ;}   
+background cambia el fondo de la pantalla
+color cambia el color de las letras   
+    
+*/ 
+
+h1,h2 {
+    color:red;
+}
+
+h3,h4,h5,h6 {
+    color:blue;
+}
+/* se puede escoger a que etiqueta en especifico darle un cambio visual*/
+
+h1{
+    font-size: 50px;
+}
+
+h2 { 
+    font-size: 40px;
+}
+
+p { 
+    color:green;
+}
+
+/* si no quieremos que todas las etiquetas sean cambiadas, tenemos que 
+poner su ruta o donde estan contenidas. Es decir en que etiquieta estan
+se pueden poner infinitas */
+
+p a {
+    font-size: 60px;
+}
+
+/* se puede hacer el cambio con una clase*/
+.yellow{
+    color:yellow;
+}
+/* tambien se puede hacer con id, sin embargo solo se puede hacer a un etiqueta
+las id ya se estan volviendo obsoletas*/
+
+#orange{
+    color:orange;
+}
+
+p .green{
+    color:green; /* solo toma en cuenta las class de green que estan en un parrafo*/
+}
+
+a[href="http://www.google.com"]{
+    color:green;
+    font-size: 30px;
+}
+
+/* Tema Unidades de Medida*/
+
+body{
+    font-size:12px;
+}
+
+p{
+    font-size: 1em; /* em es la unidad completa donde esta contenida, en este caso serían los 12px del body*/
+
+}
